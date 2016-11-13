@@ -15,10 +15,10 @@ end_of_this_month = monthrange(current_year, current_month)[1]
 
 if today < payday:
 	days_until_money = payday - today
-	print "Wait %d more days for MONEY bith!" % days_until_money
+	print "Wait %d more days for MONEY!" % days_until_money
 
 elif today == payday:
-	print "It's PAYDAY bitch!"
+	print "It's PAYDAY!"
 
 elif today > payday and today <= end_of_this_month:
 	remaining_days_this_month = end_of_this_month - today
