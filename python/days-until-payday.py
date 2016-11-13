@@ -22,7 +22,7 @@ elif today == 25:
 
 elif today > 25 and today <= end_of_this_month:
 	remaining_days_this_month = end_of_this_month - today
-	days_until_next_months_payday = remaining_days_this_month + 25
+	days_until_next_months_payday = remaining_days_this_month + payday_is
 
 	print "Wait for next month. Still %d more days to go!" % days_until_next_months_payday
 
