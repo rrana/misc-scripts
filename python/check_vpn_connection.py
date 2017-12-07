@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 #!/usr/bin/python
 
 # Run this with sudo privilege/as root. Otherwise refactor the code.
